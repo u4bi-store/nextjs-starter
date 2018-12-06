@@ -1,6 +1,6 @@
 # nextjs-starter
 
-Next.js Starter boilerplate for u4bi
+Serverless Next.js Starter boilerplate for u4bi
 
 ![_](_.png)
 
@@ -26,8 +26,18 @@ $ npm install
 
 5. Run Jest tests. `npm run test`
 
+
+## Deploy in Serverless AWS Lambda & CloudFront
+
+```
+$ npm run sls:deploy
+$ npm run sls:local
+```
+
+
 ## Features
 
+- [Serverless](https://github.com/serverless/serverless)
 - [Express.js](https://github.com/expressjs/express)
 - [Next.js](https://github.com/zeit/next.js)
 - [styled-jsx-sass](https://github.com/giuseppeg/styled-jsx-plugin-sass)
