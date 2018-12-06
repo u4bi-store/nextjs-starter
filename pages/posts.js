@@ -20,10 +20,29 @@ export default class extends Component {
                         console.log(app.state)
 
                         return(
-                            <div>
+                            <div className='Posts'>
                                 <h1>My { app.state.title } #{this.props.postId}</h1>
 
                                 <Button>Ant D</Button>
+
+                                <style jsx>{`
+
+                                    $color: red;
+
+                                    .Posts {
+
+                                        h1 {
+                                            &:hover {
+                                                color: $color;
+                                            }
+
+                                            @media only screen and (max-width: 480px) {
+                                                font-size: 1rem;
+                                            }
+                                        }
+
+                                    }
+                                `}</style>
 
                             </div>
                         )
