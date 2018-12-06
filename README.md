@@ -24,6 +24,21 @@ $ npm install
 
 4. Starts the application in production mode. `npm run start`
 
+5. Run Jest tests. `npm run test`
+
+## Features
+
+- [Express.js](https://github.com/expressjs/express)
+- [Next.js](https://github.com/zeit/next.js)
+- [styled-jsx-sass](https://github.com/giuseppeg/styled-jsx-plugin-sass)
+- [Unstated](https://github.com/jamiebuilds/unstated)
+- [Storybook](https://github.com/storybooks/storybook)
+- [jest](https://github.com/facebook/jest)
+- [enzyme](https://github.com/airbnb/enzyme)
+- [create-next-app](https://github.com/segmentio/create-next-app)
+- [ant-design](https://github.com/ant-design/ant-design)
+
+
 ## License
 
 [MIT](LICENSE)
