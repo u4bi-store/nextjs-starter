@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
