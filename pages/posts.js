@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Subscribe } from 'unstated'
 
+import { Button } from 'antd'
+
 import { AppContainer } from '../providers/containers'
 
 export default class extends Component {
@@ -20,6 +22,9 @@ export default class extends Component {
                         return(
                             <div>
                                 <h1>My { app.state.title } #{this.props.postId}</h1>
+
+                                <Button>Ant D</Button>
+
                             </div>
                         )
 
