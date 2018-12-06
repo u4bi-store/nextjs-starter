@@ -7,7 +7,9 @@
     "start": "NODE_ENV=production node server.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "sls:deploy": "IS_SLS=true serverless deploy -v",
+    "sls:local": "IS_SLS=true serverless offline start"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
