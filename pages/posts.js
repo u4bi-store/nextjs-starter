@@ -17,8 +17,6 @@ export default class extends Component {
                 <Button>Ant D</Button>
                                     
                 <ul>
-                    <li><Link href='/b' as='/a'><a>a</a></Link></li>
-                    <li><Link href='/a' as='/b'><a>b</a></Link></li>
                     <li><Link href='/posts/2' as='/posts/2'><a>post #2</a></Link></li>
                 </ul>
 
