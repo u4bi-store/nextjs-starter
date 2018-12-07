@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import { Button } from 'antd'
-
 import { Subscribe } from 'unstated'
 
 import { AppContainer } from '../providers/containers'
@@ -22,7 +20,7 @@ export default class extends Component {
 
                                     <p>{ app.state.user.name }</p>
 
-                                    <Button onClick={ () => app.setName('updated') }>setName('updated')</Button>
+                                    <button onClick={ () => app.setName('updated') }>setName('updated')</button>
 
                                 </Wrapper>
                             </div>

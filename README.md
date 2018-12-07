@@ -46,7 +46,6 @@ $ npm run sls:local
 - [jest](https://github.com/facebook/jest)
 - [enzyme](https://github.com/airbnb/enzyme)
 - [create-next-app](https://github.com/segmentio/create-next-app)
-- [ant-design](https://github.com/ant-design/ant-design)
 - [immutability-helper](https://github.com/kolodny/immutability-helper)
 
 ## License

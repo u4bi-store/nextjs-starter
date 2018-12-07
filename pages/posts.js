@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 
-import { Button } from 'antd'
-
 export default class extends Component {
 
     static getInitialProps ({ query: { id } }) {
@@ -13,8 +11,6 @@ export default class extends Component {
         return(
             <div className='Posts'>
                 <h1>My blog post #{this.props.postId}</h1>
-
-                <Button>Ant D</Button>
                                     
                 <ul>
                     <li><Link href='/posts/2' as='/posts/2'><a>post #2</a></Link></li>
