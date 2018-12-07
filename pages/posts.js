@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
-import { Subscribe } from 'unstated'
 
 import { Button } from 'antd'
-
-import { AppContainer } from '../providers/containers'
 
 export default class extends Component {
 
@@ -13,44 +10,33 @@ export default class extends Component {
 
     render () {
         return(
-            <Subscribe to={ [ AppContainer ]}>
-                {
-                    (app) => {
+            <div className='Posts'>
+                <h1>My blog post #{this.props.postId}</h1>
 
-                        console.log(app.state)
+                <Button>Ant D</Button>
 
-                        return(
-                            <div className='Posts'>
-                                <h1>My { app.state.title } #{this.props.postId}</h1>
+                <style jsx>{`
 
-                                <Button>Ant D</Button>
+                    $color: red;
 
-                                <style jsx>{`
+                    .Posts {
 
-                                    $color: red;
+                        h1 {
+                            &:hover {
+                                color: $color;
+                            }
 
-                                    .Posts {
-
-                                        h1 {
-                                            &:hover {
-                                                color: $color;
-                                            }
-
-                                            @media only screen and (max-width: 480px) {
-                                                font-size: 1rem;
-                                            }
-                                        }
-
-                                    }
-                                `}</style>
-
-                            </div>
-                        )
+                            @media only screen and (max-width: 480px) {
+                                font-size: 1rem;
+                            }
+                        }
 
                     }
-                }
-            </Subscribe>
+                `}</style>
+
+            </div>
         )
+
     }
 
 }
