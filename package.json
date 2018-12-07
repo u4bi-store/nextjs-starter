@@ -19,6 +19,8 @@
     "express": "^4.14.0",
     "immutability-helper": "^2.8.1",
     "next": "7.0.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-optimized-images": "^2.0.2",
     "node-sass": "^4.10.0",
     "react": "16.6.3",
     "react-dom": "16.6.3",
