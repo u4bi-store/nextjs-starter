@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 
+import { Grommet, Button } from 'grommet'
+import { Add } from 'grommet-icons'
+
 import { Subscribe } from 'unstated'
 
 import { AppContainer } from '../providers/containers'
@@ -17,15 +20,16 @@ export default class extends Component {
                     (app) => {
 
                         return(
-                            <div className='Index'>
-                                <Wrapper>
+                        <Grommet>
+                            <Wrapper>
 
-                                    <p>{ app.state.user.name }</p>
-                                    <img src={ logo } />
-                                    <button onClick={ () => app.setName('updated') }>Semantic</button>
+                                <p>{ app.state.user.name }</p>
+                                <img src={ logo } />
 
-                                </Wrapper>
-                            </div>
+                                <Button icon={<Add />} label="Add" onClick={ () => app.setName('updated') } primary />
+
+                            </Wrapper>
+                        </Grommet>
                         )
 
                     }
