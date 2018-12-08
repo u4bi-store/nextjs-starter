@@ -40,7 +40,6 @@ $ npm run sls:local
 - [Serverless](https://github.com/serverless/serverless)
 - [Express.js](https://github.com/expressjs/express)
 - [Next.js](https://github.com/zeit/next.js)
-- [styled-jsx-sass](https://github.com/giuseppeg/styled-jsx-plugin-sass)
 - [Unstated](https://github.com/jamiebuilds/unstated)
 - [Storybook](https://github.com/storybooks/storybook)
 - [jest](https://github.com/facebook/jest)

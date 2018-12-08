@@ -16,25 +16,6 @@ export default class extends Component {
                     <li><Link href='/posts/2' as='/posts/2'><a>post #2</a></Link></li>
                 </ul>
 
-                <style jsx>{`
-
-                    $color: red;
-
-                    .Posts {
-
-                        h1 {
-                            &:hover {
-                                color: $color;
-                            }
-
-                            @media only screen and (max-width: 480px) {
-                                font-size: 1rem;
-                            }
-                        }
-
-                    }
-                `}</style>
-
             </div>
         )
 

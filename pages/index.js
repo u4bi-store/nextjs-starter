@@ -6,6 +6,8 @@ import { AppContainer } from '../providers/containers'
 
 import Wrapper from '../components/Wrapper'
 
+import logo from '../_.png'
+
 export default class extends Component {
 
     render () {
@@ -19,8 +21,8 @@ export default class extends Component {
                                 <Wrapper>
 
                                     <p>{ app.state.user.name }</p>
-
-                                    <button onClick={ () => app.setName('updated') }>setName('updated')</button>
+                                    <img src={ logo } />
+                                    <button onClick={ () => app.setName('updated') }>Semantic</button>
 
                                 </Wrapper>
                             </div>
