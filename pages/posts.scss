@@ -1,0 +1,12 @@
+$color: red;
+
+.Posts {
+    h1 {
+       &:hover {
+           color: $color;
+       }
+        @media only screen and (max-width: 480px) {
+           font-size: 1rem;
+       }
+   }
+}

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
 
+import './posts.scss'
+
 export default class extends Component {
 
     static getInitialProps ({ query: { id } }) {
