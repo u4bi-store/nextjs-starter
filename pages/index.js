@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
-import { Grommet, Button } from 'grommet'
+import { Grommet, Button, Box, Image } from 'grommet'
+import { grommet } from 'grommet/themes'
 import { Add } from 'grommet-icons'
 
 import { Subscribe } from 'unstated'
@@ -20,7 +21,7 @@ export default class extends Component {
                     (app) => {
 
                         return(
-                        <Grommet>
+                        <Grommet theme={ grommet }>
                             <Wrapper>
 
                                 <p>{ app.state.user.name }</p>
