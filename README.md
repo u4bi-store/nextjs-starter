@@ -2,8 +2,6 @@
 
 Serverless Next.js Starter boilerplate for u4bi
 
-![_](_.png)
-
 ## Installation
 
 ```shell

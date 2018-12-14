@@ -10,8 +10,6 @@ import { AppContainer } from '../providers/containers'
 
 import Wrapper from '../components/Wrapper'
 
-import logo from '../_.png'
-
 export default class extends Component {
 
     render () {
@@ -25,7 +23,6 @@ export default class extends Component {
                             <Wrapper>
 
                                 <p>{ app.state.user.name }</p>
-                                <img src={ logo } />
 
                                 <Button icon={<Add />} label="Add" onClick={ () => app.setName('updated') } primary />
 
